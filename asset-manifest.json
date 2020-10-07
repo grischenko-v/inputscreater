@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.63237c89.chunk.css",
-    "main.js": "/static/js/main.0181eb98.chunk.js",
-    "main.js.map": "/static/js/main.0181eb98.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ea7a341e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ea7a341e.js.map",
-    "static/css/2.220ccb42.chunk.css": "/static/css/2.220ccb42.chunk.css",
-    "static/js/2.fbd07c63.chunk.js": "/static/js/2.fbd07c63.chunk.js",
-    "static/js/2.fbd07c63.chunk.js.map": "/static/js/2.fbd07c63.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.57481fa3df0c7fa4f3b90c1deae20a55.js": "/precache-manifest.57481fa3df0c7fa4f3b90c1deae20a55.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.220ccb42.chunk.css.map": "/static/css/2.220ccb42.chunk.css.map",
-    "static/css/main.63237c89.chunk.css.map": "/static/css/main.63237c89.chunk.css.map",
-    "static/js/2.fbd07c63.chunk.js.LICENSE.txt": "/static/js/2.fbd07c63.chunk.js.LICENSE.txt"
+    "main.css": "/inputscreater/static/css/main.63237c89.chunk.css",
+    "main.js": "/inputscreater/static/js/main.7c9a26a7.chunk.js",
+    "main.js.map": "/inputscreater/static/js/main.7c9a26a7.chunk.js.map",
+    "runtime-main.js": "/inputscreater/static/js/runtime-main.6535730b.js",
+    "runtime-main.js.map": "/inputscreater/static/js/runtime-main.6535730b.js.map",
+    "static/css/2.220ccb42.chunk.css": "/inputscreater/static/css/2.220ccb42.chunk.css",
+    "static/js/2.7cdec1a8.chunk.js": "/inputscreater/static/js/2.7cdec1a8.chunk.js",
+    "static/js/2.7cdec1a8.chunk.js.map": "/inputscreater/static/js/2.7cdec1a8.chunk.js.map",
+    "index.html": "/inputscreater/index.html",
+    "precache-manifest.38a110a660f631fd294b2b8cf4e31880.js": "/inputscreater/precache-manifest.38a110a660f631fd294b2b8cf4e31880.js",
+    "service-worker.js": "/inputscreater/service-worker.js",
+    "static/css/2.220ccb42.chunk.css.map": "/inputscreater/static/css/2.220ccb42.chunk.css.map",
+    "static/css/main.63237c89.chunk.css.map": "/inputscreater/static/css/main.63237c89.chunk.css.map",
+    "static/js/2.7cdec1a8.chunk.js.LICENSE.txt": "/inputscreater/static/js/2.7cdec1a8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ea7a341e.js",
+    "static/js/runtime-main.6535730b.js",
     "static/css/2.220ccb42.chunk.css",
-    "static/js/2.fbd07c63.chunk.js",
+    "static/js/2.7cdec1a8.chunk.js",
     "static/css/main.63237c89.chunk.css",
-    "static/js/main.0181eb98.chunk.js"
+    "static/js/main.7c9a26a7.chunk.js"
   ]
 }
