@@ -5,22 +5,22 @@ import './App.css';
 
 const {TabPane} = Tabs;
 
-const createInput = (name, onChange) => (disabled) => (<Form.Item label="Basic input" labelCol={{ span: 24 }} key={name}>
-	<Input placeholder="Type something" onChange={onChange.bind(this, name)} disabled={disabled}/>
+const createInput = (name, onChange) => (enabled) => (<Form.Item label="Basic input" labelCol={{ span: 24 }} key={name}>
+	<Input placeholder="Type something" onChange={onChange.bind(this, name)} disabled={!enabled}/>
 </Form.Item>);
 
-const createTextArea = (name, onChange) => (disabled) => (<Form.Item label="Basic textarea" labelCol={{ span: 24 }} key={name}>
-	<Input.TextArea placeholder="Type something" onChange={onChange.bind(this, name)} disabled={disabled}/>
+const createTextArea = (name, onChange) => (enabled) => (<Form.Item label="Basic textarea" labelCol={{ span: 24 }} key={name}>
+	<Input.TextArea placeholder="Type something" onChange={onChange.bind(this, name)} disabled={!enabled}/>
 </Form.Item>);
 
-const createDatepicker = (name, onChange) => (disabled) => (<Form.Item label="Basic textarea" labelCol={{ span: 24 }} key={name}>
-	<DatePicker onChange={onChange.bind(this, name)} disabled={disabled}/>
+const createDatepicker = (name, onChange) => (enabled) => (<Form.Item label="Basic textarea" labelCol={{ span: 24 }} key={name}>
+	<DatePicker onChange={onChange.bind(this, name)} disabled={!enabled}/>
 </Form.Item>);
 
 function App() {
 	const [components, addComponent] = useState([]);
 	const [values, changeValue] = useState({});
-	const [isEnabled, setEnabled] = useState(true);
+	const [isEnabled, setEnabled] = useState(false);
 	
 	function onChange (name, { target : { value } }) {
 		const obj = {};
@@ -50,7 +50,7 @@ function App() {
 	}
 	
 	function onEditChange ({ target : { checked } }) {
-		setEnabled(!checked);
+		setEnabled(checked);
 	}
 
 	return (
@@ -58,7 +58,7 @@ function App() {
 			<Tabs defaultActiveKey="1">
 				<TabPane tab="Form Settings" key="Form Settings">
 					<div className="controls-wrapper">
-					<Checkbox onChange={onEditChange} checked={!isEnabled}>
+					<Checkbox onChange={onEditChange} checked={isEnabled}>
 						Edit
 					</Checkbox>
 					<Button type="primary" onClick={addInput}>
